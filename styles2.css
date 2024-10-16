@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ffe6f0 !important; /* Fondo rosa pastel forzado */
+  color: #1d1d1d !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.sub-container {
+  background-color: #fff0f5 !important; /* Cuadro con fondo claro */
+  padding: 30px !important;
+  border-radius: 15px !important;
+  text-align: center !important;
+  border: 4px solid #ff3366 !important; /* Borde rojo fuerte */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2) !important; /* Sombra para destacar */
+}
+
+.sub-container h1 {
+  font-size: 2.5rem !important;
+  color: #ff0033 !important; /* Título rojo brillante */
+  margin-bottom: 20px !important;
+}
+
+.sub-container img {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 15px !important;
+  border: 3px solid #ff0033 !important; /* Borde rojo alrededor de la imagen */
+}
+
+footer {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  width: 100% !important;
+  padding: 20px 0 !important;
+  background-color: #fff0f5 !important;
+  border-radius: 0 0 15px 15px !important;
+  border-top: 4px solid #ff3366 !important;
+}
+
+footer button {
+  background-color: #ff3366 !important; /* Botones rojos */
+  border: none !important;
+  color: white !important;
+  padding: 15px 40px !important;
+  border-radius: 50px !important;
+  cursor: pointer !important;
+  font-weight: bold !important;
+  font-size: 1.2rem !important;
+  transition: background-color 0.3s ease, transform 0.3s ease !important;
+  box-shadow: 0 8px 15px rgba(255, 0, 51, 0.4) !important; /* Sombra en los botones */
+}
+
+footer button:hover {
+  background-color: #ff6699 !important;
+  transform: scale(1.1) !important; /* Efecto de agrandado en hover */
+}
+
+footer button#btnNo {
+  background-color: #ff99bb !important;
+}
+
+footer button#btnNo:hover {
+  background-color: #ffccdd !important;
+}
+
+.alert {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  background-color: #fff0f5 !important;
+  padding: 30px !important;
+  border-radius: 15px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  z-index: 10 !important;
+  color: #ff0033 !important;
+  border: 4px solid #ff3366 !important;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2) !important;
+}
+
+.alert img {
+  margin-top: 20px !important;
+  width: 100% !important;
+  border-radius: 15px !important;
+  border: 3px solid #ff0033 !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+.imagen-reducida {
+  width: 200px !important; /* Cambia este valor al tamaño que desees */
+  height: auto !important; /* Mantiene la proporción de la imagen */
+}
+
+#imagen-reducida {
+  width: 200px !important; /* Cambia este valor al tamaño que desees */
+  height: auto !important; /* Mantiene la proporción de la imagen */
+}
